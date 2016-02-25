@@ -1,9 +1,11 @@
 html { 
   background: url(../img/background.jpg) no-repeat center center fixed; 
+  /*
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  */
   /* TODO background-position: left top; */
   /* TODO background-size: 100% 100%; */
 }
@@ -26,5 +28,12 @@ img {
     display: block;
     margin: auto;
 }
-#skateboard { shape-outside:  polygon(nonzero, 423px 252px, 442px 273px, 473px 256px, 553px 181px, 565px 167px, 564px 150px, 541px 136px, 522px 149px, 434px 228px); }
-#dice { shape-outside: polygon(nonzero, 423px 252px, 442px 273px, 478px 256px, 554px 185px, 564px 150px, 541px 136px, 522px 149px, 434px 228px); }
+/*#skateboard { 
+  background: black;
+  shape-outside: polygon(13% 15%, 46% 20%, 40% 50%);
+  -webkit-clip-path: polygon(13% 15%, 46% 20%, 40% 50%);
+  height: 100%;
+  width: 100%;
+  [> shape-outside:  polygon(nonzero, 423px 252px, 442px 273px, 473px 256px, 553px 181px, 565px 167px, 564px 150px, 541px 136px, 522px 149px, 434px 228px); <]
+}*/
+/*#dice { shape-outside: polygon(nonzero, 423px 252px, 442px 273px, 478px 256px, 554px 185px, 564px 150px, 541px 136px, 522px 149px, 434px 228px); }*/
